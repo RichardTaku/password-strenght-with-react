@@ -1,0 +1,92 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+
+form{
+  margin: 3rem;
+  max-width: 330px;
+  background: white;
+  padding: 40px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+}
+
+.container{
+  display: block;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 200;
+  width: 100%;
+  color: gray;
+
+}
+
+.form-control{
+  display:block ;
+  text-transform: none;
+  width: 100%;
+  height: 40px;
+  border-width: 0 0 1px;
+  border-style: white;
+  font-weight: 600;
+  font-size: 16px;
+  color: #232128;
+
+
+}
+
+.form-control:active,
+.form-control:focus{
+  border-color: rgb(32, 133, 133);
+  outline: none;
+}
+
+.show-password{
+  cursor: pointer;
+  position: relative;
+  bottom: 30px;
+  height: 20px;
+  right: 0;
+  background: gray;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 12px;
+  margin-left: 180px;
+
+}
